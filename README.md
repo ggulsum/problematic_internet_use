@@ -46,7 +46,7 @@ Veri seti genel olarak yüksek oranda eksik (NaN) değer içermektedir.
 
 ## 🔍 Kullanılan Veri Setinin Özellikleri
 
-### `train.csv`
+### train.csv
 
 - Toplam 82 sütun
 - 22 sütun: **PCIAT anketi** (hedef değişken olan SII’yi etiketlemek için kullanılır)
@@ -57,7 +57,7 @@ Veri seti genel olarak yüksek oranda eksik (NaN) değer içermektedir.
   - Bio-electric Impedance Analysis (BIA) verileri
   - Ebeveyn-çocuk İnternet Bağımlılığı Testi gibi sağlık anketleri
 
-### `series_train.parquet`
+### series_train.parquet
 
 - 996 kişinin kimlik numarasına göre klasör yapısı
 - Her klasör içinde `part-0.parquet` dosyası
@@ -68,12 +68,12 @@ Veri seti genel olarak yüksek oranda eksik (NaN) değer içermektedir.
   - time_of_day, weekday, quarter
   - relative_date_PCIAT (PCIAT tarihine göre geçen gün sayısı)
 
-### `test.csv`
+### test.csv
 
 - 20 kişiye ait 59 sütun
 - `train.csv` ile aynı özellikleri içerir ancak PCIAT ve SII verileri yoktur
 
-### `series_test.parquet`
+### series_test.parquet
 
 - 2 kişiye ait akıllı saat verileri
 - `series_train.parquet` ile aynı yapıda
